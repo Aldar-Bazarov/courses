@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    /* Цвет фона, можно изменить по вашему усмотрению */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    /* Ширина контейнера формы */
+}
+
+.card {
+    margin-top: 30px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    /* Цвет заголовка, можно изменить по вашему усмотрению */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
